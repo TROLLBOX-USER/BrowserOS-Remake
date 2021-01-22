@@ -1,0 +1,11 @@
+body {
+  background: midnightblue;
+  font-family: 'SF Pro Display', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: lightskyblue;
+}
+
+#booting {
+  background: dodgerblue;
+  margin: 16em;
+}

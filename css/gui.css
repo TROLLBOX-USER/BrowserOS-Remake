@@ -1,0 +1,11 @@
+body {
+  background-color: #3A6EA5;
+  font-family: 'SF Pro Display', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: lightskyblue;
+}
+
+button {
+  background-color: gray;
+  border: 2px unset black;
+}
