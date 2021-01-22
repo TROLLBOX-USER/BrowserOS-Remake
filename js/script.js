@@ -11,7 +11,7 @@ function update() {
 function increase() {
   if (progressboot >= 100) {
     progressboot = 99
-    location.replace("/login.html")
+    location.replace("login.html")
   }
   progressboot += 1;
 }
