@@ -20,7 +20,7 @@ let users = {
     },
     {
       namez: "Eae",
-      description: "He likes emojis"
+      description: "He likes emojis",
       registered: new Date('2021-1-22'),
       password: btoa("memes")
     }
