@@ -39,16 +39,16 @@ function checkRegisteredAndLogined() {
 function loginCheck() {
   if (document.getElementById('placeholder').value == users.currently[0].password) {
     confirm("Correct Password")
-    location.replace("/gui.html")
+    location.replace("gui.html")
   } else if (document.getElementById('placeholder').value == users.currently[1].password) {
     confirm("Correct Password")
-    location.replace("/gui.html")
+    location.replace("gui.html")
   } else if (document.getElementById('placeholder').value == users.currently[2].password) {
     confirm("Correct Password")
-    location.replace("/gui.html")
+    location.replace("gui.html")
   } else if (document.getElementById('placeholder').value == users.currently[3].password) {
     confirm("Correct Password")
-    location.replace("/gui.html")
+    location.replace("gui.html")
   } else {
     confirm("Wrong Password")
   }
