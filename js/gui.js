@@ -9,6 +9,16 @@ let users = {
       namez: "Tom",
       registered: new Date('2021-1-22'),
       password: btoa("batch")
+    },
+    {
+      namez: "Copy",
+      registered: new Date('2021-1-22'),
+      password: btoa("sex")
+    },
+    {
+      namez: "Eae",
+      registered: new Date('2021-1-22'),
+      password: btoa("memes")
     }
   ]
 }
@@ -26,10 +36,13 @@ function loginCheck() {
   if (document.getElementById('placeholder').value == users.currently[0].password) {
     confirm("Correct Password")
     location.replace("/gui.html")
-  } else {
-    confirm("Wrong Password")
-  }
-  if (document.getElementById('placeholder').value == users.currently[1].password) {
+  } else if (document.getElementById('placeholder').value == users.currently[1].password) {
+    confirm("Correct Password")
+    location.replace("/gui.html")
+  } else if (document.getElementById('placeholder').value == users.currently[2].password) {
+    confirm("Correct Password")
+    location.replace("/gui.html")
+  } else if (document.getElementById('placeholder').value == users.currently[3].password) {
     confirm("Correct Password")
     location.replace("/gui.html")
   } else {
@@ -44,5 +57,7 @@ function execute(event) {
   }
 }
 
-console.log(users.currently[0].password)
-console.log(users.currently[1].password)
+// console.log(users.currently[0].password)
+// console.log(users.currently[1].password)
+// console.log(users.currently[2].password)
+// console.log(users.currently[3].password)
