@@ -2,16 +2,19 @@ let users = {
   currently: [
     {
       namez: "Nam",
+      description: "Tom's best friend =)",
       registered: new Date('2021-1-22'),
       password: btoa("coder")
     },
     {
       namez: "Tom",
+      description: "He likes roary the racing car",
       registered: new Date('2021-1-22'),
       password: btoa("batch")
     },
     {
       namez: "Copy",
+      description: "He likes sex only",
       registered: new Date('2021-1-22'),
       password: btoa("sex")
     },

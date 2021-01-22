@@ -1,0 +1,9 @@
+* {
+  cursor: none;
+}
+
+body {
+  background: red;
+  font-family: 'Lucida Console', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
