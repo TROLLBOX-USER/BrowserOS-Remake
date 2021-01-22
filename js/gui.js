@@ -8,7 +8,7 @@ let users = {
     {
       namez: "Tom",
       registered: new Date('2021-1-22'),
-      password: btoa("roary")
+      password: btoa("batch")
     }
   ]
 }
@@ -22,6 +22,27 @@ function checkRegisteredAndLogined() {
   }
 }
 
-function login() {
-  if (users.currently[])
+function loginCheck() {
+  if (document.getElementById('placeholder').value == users.currently[0].password) {
+    confirm("Correct Password")
+    location.replace("/gui.html")
+  } else {
+    confirm("Wrong Password")
+  }
+  if (document.getElementById('placeholder').value == users.currently[1].password) {
+    confirm("Correct Password")
+    location.replace("/gui.html")
+  } else {
+    confirm("Wrong Password")
+  }
 }
+
+function execute(event) {
+  var x = event.charCode || event.keyCode
+  if (x === 13) {
+    loginCheck()
+  }
+}
+
+console.log(users.currently[0].password)
+console.log(users.currently[1].password)

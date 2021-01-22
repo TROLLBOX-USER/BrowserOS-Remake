@@ -6,6 +6,8 @@ body {
 }
 
 button {
-  background-color: gray;
-  border: 2px unset black;
+  font-family: 'MS Sans Serif';
+  font-size: 8px;
+  background-color: lightgray;
+  border: 2px unset gray;
 }
